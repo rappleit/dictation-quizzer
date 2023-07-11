@@ -1,0 +1,74 @@
+.main {
+    color: #ffffff;
+    padding: 32px;
+    width: 20vw;
+    min-height: 100vh;
+    background: #16121e;
+}
+
+p {
+    font-size: 12px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+textarea {
+    padding: 8px;
+    height: 200px;
+    overflow-y: auto;
+}
+
+form button {
+    background: #89ffb0;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #b5ffce;
+}
+
+
+form {
+    margin-bottom: 24px;
+}
+ol {
+    border: 2px solid #fff;
+    border-radius: 4px;
+    padding: 12px;
+    list-style-position: inside;
+}
+
+.listHeader {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.clearButton {
+    background: #ff6767;
+    border: none;
+    font-size: 14px;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+.clearButton:hover {
+    background: #ffc2c2;
+}
+
+.hideListButton {
+    background: none;
+    border: none;
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+}
