@@ -1,0 +1,21 @@
+.main {
+    padding: 32px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+button {
+    padding: 8px;
+}
+
+label {
+    display: flex;
+    gap: 12px;
+}
+
+.nextActionContainer {
+    display: flex;
+    gap: 12px;
+}
